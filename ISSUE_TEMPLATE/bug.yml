@@ -1,7 +1,7 @@
 name: 问题报告（fix）
 description: 已有的东西跑不通或结果不对
 title: "fix: "
-labels: []
+labels: [bug]
 body:
   - type: markdown
     attributes:
