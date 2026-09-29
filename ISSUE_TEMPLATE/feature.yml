@@ -1,7 +1,7 @@
 name: 功能提案（feat）
 description: 想做一个现在没有的新东西
 title: "feat: "
-labels: []
+labels: [feature]
 body:
   - type: markdown
     attributes:
