@@ -1,0 +1,29 @@
+name: 问题报告（fix）
+description: 已有的东西跑不通或结果不对
+title: "fix: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "只写「跑不起来」「不对」而没有复现步骤的，一律退回，不算 Bug。"
+  - type: textarea
+    id: actual
+    attributes:
+      label: 现象
+      description: 实际发生了什么；报错贴原文，界面问题贴截图
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现
+      description: 环境与分支，一步步怎么复现
+    validations:
+      required: true
+  - type: textarea
+    id: expect
+    attributes:
+      label: 期望
+      description: 按设计本来应该是什么样
+    validations:
+      required: true
