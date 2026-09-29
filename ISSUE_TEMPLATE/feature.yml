@@ -1,0 +1,36 @@
+name: 功能提案（feat）
+description: 想做一个现在没有的新东西
+title: "feat: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "一题一 Issue。想清楚再提：别人不看代码也该知道你要做什么、做完算不算数。提完在本 Issue 下回一句「认领：姓名 ＋ fork 链接 ＋ 分支名」即占题（T9）。"
+  - type: textarea
+    id: want
+    attributes:
+      label: 要什么
+      description: 一句话说清做完之后能干什么
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: 怎么用
+      description: 用户视角的操作步骤：点什么、输什么、看到什么
+    validations:
+      required: true
+  - type: textarea
+    id: accept
+    attributes:
+      label: 验收标准
+      description: 满足哪几条算做完，必须可测，别写「美观」「流畅」
+    validations:
+      required: true
+  - type: textarea
+    id: out
+    attributes:
+      label: 不做什么
+      description: 本次范围之外的东西，防止越滚越大
+    validations:
+      required: false
