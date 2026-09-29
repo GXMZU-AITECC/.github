@@ -21,4 +21,4 @@
 - [ ] 没删掉不该删的原有代码与注释，新功能不影响已有功能
 - [ ] 自己跑过，没有新增报错
 
-<!-- 提完在右侧 Reviewers 里 assign 至少 2 人（T2），只在正文打 @ 不算 -->
+<!-- 提完在右侧 Reviewers 里挑 2 名 Reviewer（T2），第二名认领的 Reviewer 批准并合并；外部 fork 没有 assign 权限，等 CODEOWNERS 自动派 -->
