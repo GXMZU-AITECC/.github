@@ -5,7 +5,7 @@ labels: [feature]
 body:
   - type: markdown
     attributes:
-      value: "一题一 Issue。想清楚再提：别人不看代码也该知道你要做什么、做完算不算数。提完在本 Issue 下回一句「认领：姓名 ＋ fork 链接 ＋ 分支名」即占题（T9）。"
+      value: "一题一 Issue。想清楚再提：别人不看代码也该知道你要做什么、做完算不算数。提完在本 Issue 下回一句「认领：姓名 ＋ fork 链接 ＋ 分支名」即占题（T0：没有提案的 PR 不收；认领后 7 天内不提 PR 占题作废）。"
   - type: textarea
     id: want
     attributes:
