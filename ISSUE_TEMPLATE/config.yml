@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: 协作规范 · 新人必读
+  - name: guidelines
     url: https://github.com/GXMZU-AITECC/guidelines
     about: P 表管人，T 表管 PR；Issue 怎么写看 I 章
