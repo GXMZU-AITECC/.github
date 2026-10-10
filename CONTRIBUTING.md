@@ -2,7 +2,7 @@
 
 按 [guidelines](https://github.com/GXMZU-AITECC/guidelines) 的 T 表从前往后过，任何一条没过就别提：
 
-1. **T0** 有对应的提案 Issue，且是你自己占的题
+1. **T0** 有对应的提案 Issue，且是你自己占的题（赛项私有仓里由 team maintainer 指派的活除外）
 2. **T1** diff 里没有密钥、令牌、口令、个人数据
 3. **T2** 只做这一件事，没夹带无关改动与构建产物
 4. **T3** 目标分支是 `develop`
@@ -13,4 +13,4 @@
 9. **T9** 该仓的自动检查（若有）是绿的
 10. **T10** 分支名是 `feature/...` 或 `bugfix/...`
 
-**T5** 由评审环节负责：2 名 Reviewer，第二名认领的 Reviewer 批准并合并。被拒只会收到一个编号，对着 T 表改；guidelines 里的 `setup.md`／`permissions.md`／`device.md` 是社团口径，不是拒绝理由；踩到 P 表的，处理的是人，与 PR 无关。
+**T5** 由评审环节负责：训练场与公开仓须 2 名 Reviewer，第二名认领的 Reviewer 批准并合并；赛项私有仓由本队 ≥1 名非作者成员批准并合并。被拒只会收到一个编号，对着 T 表改；guidelines 里的 `setup.md`／`permissions.md`／`device.md` 是社团口径，不是拒绝理由；踩到 P 表的，处理的是人，与 PR 无关。
